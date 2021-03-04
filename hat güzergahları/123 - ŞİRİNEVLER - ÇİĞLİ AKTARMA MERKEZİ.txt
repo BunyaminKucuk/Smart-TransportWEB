@@ -1,0 +1,142 @@
+  try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.51791, 27.06512), "", "&lt;b&gt;Egekent - 21028&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;123,342,346,442,443,446,810", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.51791, 27.06512)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.518898, 27.06401), "", "&lt;b&gt;Zirve - 21035&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;123,342,346,442,443,446,810", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.518898, 27.06401)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.51797, 27.06554), "", "&lt;b&gt;Yoldaş - 21026&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;123,342,443", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.51797, 27.06554)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.51741, 27.06666), "", "&lt;b&gt;&#199;iğli İzkent - 21024&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;123,342,443", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.51741, 27.06666)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.51516, 27.06625), "", "&lt;b&gt;Tepe - 21022&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;123,342,443", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.51516, 27.06625)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.51349, 27.06509), "", "&lt;b&gt;Egekent Eski Son Durak - 21020&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;123,342,443", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.51349, 27.06509)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.51086, 27.06471), "", "&lt;b&gt;Egekent Meydan - 21004&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;123,342,443", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.51086, 27.06471)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.50906, 27.06466), "", "&lt;b&gt;Egekent &#199;ay Bah&#231;esi - 21002&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;123,342,443", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.50906, 27.06466)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.50669, 27.06332), "", "&lt;b&gt;Egekent Devlet Hastanesi - 20976&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;123", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.50669, 27.06332)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.50718, 27.06609), "", "&lt;b&gt;Egekent K&#246;şe - 20974&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;123", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.50718, 27.06609)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.506013, 27.06682), "", "&lt;b&gt;Egekent &#220;&#231;yol - 20972&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;123,442", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.506013, 27.06682)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.503073, 27.06588), "", "&lt;b&gt;&#199;ağdaş Sitesi - 20970&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;123,442", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.503073, 27.06588)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.50101, 27.06454), "", "&lt;b&gt;Ormancı Sitesi - 20968&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;123,342,442,443", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.50101, 27.06454)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.498297, 27.062475), "", "&lt;b&gt;B&#252;y&#252;k &#199;iğli A.L. - 20978&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;123,342,423,442,443", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.498297, 27.062475)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.49688, 27.06094), "", "&lt;b&gt;Egekent Dispanser - 20966&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;123,342,423,442,443", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.49688, 27.06094)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.491957, 27.061443), "", "&lt;b&gt;&#199;iğli Aktarma Merkezi - 22143&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;123,329,342,344,529,816,817", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.491957, 27.061443)
+                }
+         

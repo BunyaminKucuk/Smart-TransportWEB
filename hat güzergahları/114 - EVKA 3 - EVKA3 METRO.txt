@@ -1,0 +1,106 @@
+  try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.4725010114385, 27.2528996311502), "", "&lt;b&gt;Evka 3 - 31502&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;114,314", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.4725010114385, 27.2528996311502)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.4739010192855, 27.2538996175909), "", "&lt;b&gt;Sevgi - 31500&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;114,314", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.4739010192855, 27.2538996175909)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.4736610243586, 27.2555006116885), "", "&lt;b&gt;Umut - 31498&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;114,314", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.4736610243586, 27.2555006116885)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.4727010192431, 27.2548996206162), "", "&lt;b&gt;Birlik - 31495&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;114,314", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.4727010192431, 27.2548996206162)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.4719371099899, 27.2524873256356), "", "&lt;b&gt;Doruk - 31494&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;114,314", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.4719371099899, 27.2524873256356)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.471601001577, 27.2508996460921), "", "&lt;b&gt;Yunus Emre A.L. - 31492&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;114,314", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.471601001577, 27.2508996460921)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.4689884078456, 27.248760537201), "", "&lt;b&gt;Kardelen - 31490&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;114,314", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.4689884078456, 27.248760537201)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.467250978454, 27.2480496862442), "", "&lt;b&gt;Cem Bakioğlu Lisesi - 31488&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;114,314", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.467250978454, 27.2480496862442)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.4667238808089, 27.2442828066525), "", "&lt;b&gt;Evka-3 Parkı - 31478&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;114,314", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.4667238808089, 27.2442828066525)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.4658989468762, 27.2399637313261), "", "&lt;b&gt;Bornova Tenis Kul&#252;b&#252; - 31481&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;67,111,114,317,988", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.4658989468762, 27.2399637313261)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.466392934012, 27.2356977479333), "", "&lt;b&gt;Profes&#246;rler Sitesi - 31483&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;67,111,114,317,988", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.466392934012, 27.2356977479333)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.4657419072363, 27.2281257865752), "", "&lt;b&gt;Evka 3 Aktarma Merkezi - 31778&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;114", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.4657419072363, 27.2281257865752)
+                }
+         

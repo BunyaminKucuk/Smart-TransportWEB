@@ -1,0 +1,60 @@
+ try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.4131053328272, 27.1663336274026), "", "&lt;b&gt;Levent - 11952&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;41,42,46", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.4131053328272, 27.1663336274026)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.4155292030805, 27.1659124702019), "", "&lt;b&gt;Levent Depo - 11942&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;41,42,46", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.4155292030805, 27.1659124702019)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.4185066262945, 27.1665632740032), "", "&lt;b&gt;Levent &#199;eşme - 11940&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;41,42,46", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.4185066262945, 27.1665632740032)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.4201790765723, 27.1675729278183), "", "&lt;b&gt;Barbaros Hayrettin İlkokulu - 11937&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;41,42,46", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.4201790765723, 27.1675729278183)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.4197365511543, 27.1632932019199), "", "&lt;b&gt;Zeytinlik - 11932&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;41,42,46", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.4197365511543, 27.1632932019199)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.419218008149, 27.1596731958273), "", "&lt;b&gt;Hacı Bayram Cami - 11930&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;41,42,46", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.419218008149, 27.1596731958273)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.4215736131325, 27.1566303054279), "", "&lt;b&gt;Kemer Aktarma Merkezi - 13352&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;34,39,41,42,46,466,838", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.4215736131325, 27.1566303054279)
+                }

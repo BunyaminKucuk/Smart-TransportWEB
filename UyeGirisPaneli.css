@@ -1,0 +1,32 @@
+#sifremiunuttum{
+   
+    height: 115%;
+    width:80%;
+    position: absolute;
+    right: 0px;
+    left: 500px;
+
+}
+#giris{
+  width:72px;
+ 
+}
+#btngroup{
+  width:1364px;
+}
+#btnayarlar hover:{
+ background: aquamarine;
+}
+.head{
+  width:1364px;
+  height: 60px;
+  text-align:center;
+  background-color:#b3c2bf;
+  color:white;
+
+  
+     
+}
+h2{
+  text-align:center;
+}

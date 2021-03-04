@@ -1,0 +1,88 @@
+  try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.4098285561745, 27.1388344158222), "", "&lt;b&gt;Kadriye Mahallesi - 12129&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;29", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.4098285561745, 27.1388344158222)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.408918609772, 27.1368370348795), "", "&lt;b&gt;Kadriye Mahallesi &#199;eşme - 12124&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;29", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.408918609772, 27.1368370348795)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.4077039949087, 27.1351019561962), "", "&lt;b&gt;Yayla Kahvesi - 12122&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;29", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.4077039949087, 27.1351019561962)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.4051187908468, 27.1343951675585), "", "&lt;b&gt;D&#252;zyollar - 12120&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;29", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.4051187908468, 27.1343951675585)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.4042375741263, 27.1338597473417), "", "&lt;b&gt;&#199;imentepe Aile Sağlık Merkezi - 12118&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;29,30,32", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.4042375741263, 27.1338597473417)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.4048577337271, 27.1324066177138), "", "&lt;b&gt;&#214;mer L&#252;tf&#252; Akad İlk&#246;ğretim Okulu - 12126&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;29,30,32", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.4048577337271, 27.1324066177138)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.405633876788, 27.1305247540886), "", "&lt;b&gt;Kasap - 12116&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;29,30,32", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.405633876788, 27.1305247540886)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.408336259554, 27.1288277882328), "", "&lt;b&gt;Eşrefpaşa - 12058&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;23,27,29,30,32,33,72,104,105,157,171,193,224,233,285,374,465,484,940", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.408336259554, 27.1288277882328)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.4132205425829, 27.1272124560918), "", "&lt;b&gt;Kız Yurdu - 10240&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;15,18,19,20,23,27,29,30,32,33,72,104,105,152,157,171,193,224,233,285,374,465,484,550,587,588,887,910,940,950", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.4132205425829, 27.1272124560918)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.4151744941379, 27.1272489250589), "", "&lt;b&gt;Bahribaba - 10012&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;29,30,32", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.4151744941379, 27.1272489250589)
+                }
+         

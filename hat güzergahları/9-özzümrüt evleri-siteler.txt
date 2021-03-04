@@ -1,0 +1,294 @@
+ try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.3675002997441, 26.8640017549678), "", "&lt;b&gt;&#214;z Z&#252;mr&#252;tevleri - 51259&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;9", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.3675002997441, 26.8640017549678)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.3690002964949, 26.8625017672255), "", "&lt;b&gt;Manolya - 51246&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;9", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.3690002964949, 26.8625017672255)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.3669002996327, 26.8614017685114), "", "&lt;b&gt;Orkide - 51244&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;9", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.3669002996327, 26.8614017685114)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.3651573667595, 26.8617745968028), "", "&lt;b&gt;&#214;z Z&#252;mr&#252;tevleri Giriş - 51242&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;9", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.3651573667595, 26.8617745968028)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.3591113125787, 26.8601637547071), "", "&lt;b&gt;Bulgun - 51258&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;9", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.3591113125787, 26.8601637547071)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.36463078097, 26.8649726222453), "", "&lt;b&gt;Bah&#231;e Arası - 51240&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;9", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.36463078097, 26.8649726222453)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.3693795575038, 26.8684250464527), "", "&lt;b&gt;Tekne At&#246;lyesi - 51236&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;9", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.3693795575038, 26.8684250464527)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.3704646924852, 26.8744380086274), "", "&lt;b&gt;Fidanlık - 51238&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;9", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.3704646924852, 26.8744380086274)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.3692003015411, 26.8742017005453), "", "&lt;b&gt;Konutlar - 50383&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;8,9,82,983,985", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.3692003015411, 26.8742017005453)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.3667003052752, 26.8737016975945), "", "&lt;b&gt;&#199;eşme Otoban Kavşağı - 50385&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;8,9,82,983,985", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.3667003052752, 26.8737016975945)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.364569309055, 26.8747556864531), "", "&lt;b&gt;Hakkı Oğuz Tabaoğlu İlkokulu - 50361&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;8,9,82", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.364569309055, 26.8747556864531)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.3668979380716, 26.8758408035231), "", "&lt;b&gt;&#220;nl&#252; - 50370&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;8,9,82", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.3668979380716, 26.8758408035231)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.3659003084979, 26.8784016691706), "", "&lt;b&gt;Şehit Kemal - 50374&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;8,9,82", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.3659003084979, 26.8784016691706)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.3638063126023, 26.8808046506478), "", "&lt;b&gt;Asır - 50368&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;8,9,82", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.3638063126023, 26.8808046506478)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.3621003158871, 26.8829016347272), "", "&lt;b&gt;Okul Durağı - 50366&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;8,9,82,321", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.3621003158871, 26.8829016347272)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.3601802553896, 26.884658967966), "", "&lt;b&gt;Sağlık Ocağı - 50364&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;8,9,82,321", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.3601802553896, 26.884658967966)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.35902699358, 26.8857385993365), "", "&lt;b&gt;Stad - 50372&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;8,9,82,321", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.35902699358, 26.8857385993365)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.3582003229668, 26.8876015986874), "", "&lt;b&gt;G&#252;zelbah&#231;e Meydan - 50362&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;8,9,82,321", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.3582003229668, 26.8876015986874)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.36040032009, 26.8880016022933), "", "&lt;b&gt;Belediye - 50356&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;9,82,321", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.36040032009, 26.8880016022933)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.362400316897, 26.88680161394), "", "&lt;b&gt;Uğur Mumcu - 50338&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;9,82,321", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.362400316897, 26.88680161394)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.3611003196935, 26.8896015953224), "", "&lt;b&gt;Fırın - 50336&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;9,82,321", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.3611003196935, 26.8896015953224)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.3629254170102, 26.8905787539921), "", "&lt;b&gt;Fabrika - 50334&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;9,82,321", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.3629254170102, 26.8905787539921)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.3666123131518, 26.8919375955822), "", "&lt;b&gt;Yaka Giriş - 50332&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;9,82,321", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.3666123131518, 26.8919375955822)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.3702003084024, 26.8922016017598), "", "&lt;b&gt;G&#252;zelbah&#231;e Kaymakamlık - 50330&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;9,82,321", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.3702003084024, 26.8922016017598)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.3759003004964, 26.8921016131072), "", "&lt;b&gt;Pazar Yeri - 50328&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;9,82,321", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.3759003004964, 26.8921016131072)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.377786989041, 26.8893890155156), "", "&lt;b&gt;Eczane - 50083&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;8,9,981,982,983,984,985", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.377786989041, 26.8893890155156)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.3771002946022, 26.8845016579424), "", "&lt;b&gt;Liman - 50085&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;8,9,981,982,983,984,985", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.3771002946022, 26.8845016579424)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.3764002928062, 26.8793016862262), "", "&lt;b&gt;Altmışıncı Yıl A.L. - 50089&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;8,9,981,982,983,984,985", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.3764002928062, 26.8793016862262)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.3749932910874, 26.8719347257473), "", "&lt;b&gt;Fidanlık - 50091&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;9,82,981,982,984", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.3749932910874, 26.8719347257473)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.3742832901833, 26.8679777471572), "", "&lt;b&gt;Elif - 50093&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;9,82,981,982,984", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.3742832901833, 26.8679777471572)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.3737213454786, 26.8652032971277), "", "&lt;b&gt;Şehit &#220;st Teğmen Deveci - 50095&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;9,82,981,982,984", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.3737213454786, 26.8652032971277)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.3731002882579, 26.8603017893127), "", "&lt;b&gt;Siteler Sahil - 51535&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;9,82", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.3731002882579, 26.8603017893127)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.3724002880853, 26.8575018041737), "", "&lt;b&gt;Siteler Son Durak - 51536&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;9,82", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.3724002880853, 26.8575018041737)
+                }

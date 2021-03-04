@@ -1,0 +1,87 @@
+  try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.4043793031924, 27.1008023411488), "", "&lt;b&gt;İn&#246;n&#252; - 12193&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;15", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.4043793031924, 27.1008023411488)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.404176676417, 27.1038778250234), "", "&lt;b&gt;G&#246;n&#252;l - 12192&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;15", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.404176676417, 27.1038778250234)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.4026004911598, 27.1052005744861), "", "&lt;b&gt;T&#252;rkoğlu - 12190&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;15", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.4026004911598, 27.1052005744861)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.4015719507332, 27.1095551869774), "", "&lt;b&gt;&#199;eşme - 10282&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;15,681,950", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.4015719507332, 27.1095551869774)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.4024596110151, 27.1144054752472), "", "&lt;b&gt;Şof&#246;rler Lokali - 10262&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;15,681,950", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.4024596110151, 27.1144054752472)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.4057005200398, 27.1213004996243), "", "&lt;b&gt;&#220;&#231;yol Metro - 10252&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;15,16,18,19,20,84,89,92,108,113,124,156,490,520,523,524,556,588,823,950", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.4057005200398, 27.1213004996243)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.4070005265196, 27.1240004852296), "", "&lt;b&gt;Altıntaş - 10248&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;15,18,19,20,152,550,587,588,655,681,887,910,950", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.4070005265196, 27.1240004852296)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.408500533487, 27.1267004702258), "", "&lt;b&gt;Bayramyeri - 10246&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;15,18,19,20,152,550,587,588,655,681,887,910,950", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.408500533487, 27.1267004702258)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.4132205425829, 27.1272124560918), "", "&lt;b&gt;Kız Yurdu - 10240&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;15,18,19,20,23,27,29,30,32,33,72,104,105,152,157,171,193,224,233,285,374,465,484,550,587,588,887,910,940,950", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.4132205425829, 27.1272124560918)
+                }
+         
+    
+        
+             try { 
+                  ol4Master.AddPoi(KoordinatDegistir(38.4153013708088, 27.1277014984429), "", "&lt;b&gt;Bahribaba - 10005&lt;/b&gt; &lt;/br&gt;Ge&#231;en Hatlar &lt;/br&gt;15,21,35", "/Content/img/icon-bus.png");
+                }
+             catch (err) { 
+                 console.log(38.4153013708088, 27.1277014984429)
+                }

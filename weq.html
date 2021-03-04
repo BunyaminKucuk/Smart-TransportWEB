@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta charset="utf-8">
+  <title>Directions Service</title>
+  <style>
+    /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+    #map {
+      height: 100%;
+    }
+
+    /* Optional: Makes the sample page fill the window. */
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    #floating-panel {
+      position: absolute;
+      top: 10px;
+      left: 25%;
+      z-index: 5;
+      background-color: #fff;
+      padding: 5px;
+      border: 1px solid #999;
+      text-align: center;
+      font-family: 'Roboto', 'sans-serif';
+      line-height: 30px;
+      padding-left: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <button onclick="alert(StartingPos+ EndingPos)">YOYOYOOY</button>
+  <button onclick="selectStart=true, selectEnd=false ">SELECT START</button>
+  <button onclick="selectEnd=true,selectStart=false">SELECT END</button>
+
+
+
+  <div id="map"></div>
+
+  <script>
+
+    var StartingPos;
+    var EndingPos;
+    var selectStart = false;
+    var selectEnd = false;
+
+    function initMap() {
+      var directionsService = new google.maps.DirectionsService;
+      var directionsDisplay = new google.maps.DirectionsRenderer;
+      var geocoder = new google.maps.Geocoder;
+      var infowindow = new google.maps.InfoWindow;
+
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 10,
+        center: { lat: 38.424585, lng: 27.143568 }
+      });
+      directionsDisplay.setMap(map);
+
+
+
+      map.addListener('click', function (e) { //NEW    
+        GetCityInfo(e.latLng);
+        GetCoordinates(e.latLng);
+        if (StartingPos != null && EndingPos != null)
+          calculateAndDisplayRoute(directionsService, directionsDisplay);
+        CalculateDistanceDuration();
+        CalculateWalkingDistance(StartingPos,EndingPos);
+
+      });
+    }
+
+
+    function GetClosestStops() {
+      var startWalkableStops=[];
+      var endWalkableStops=[];
+
+      for (var i = 0; i < Stops.length; i++)  //BANA EN YAKIN DURAKLARI BUL (ON DAKİKA YÜRÜME MESAFESİ)
+      {
+        if (IsWalkable(StartingPos, Stops[i]) == false){
+
+        } //Konumuma yakınları bul  
+          else{
+            startWalkableStops.push(Stops[i]);
+          }
+
+          if (IsWalkable(EndingPos, Stops[i]) == false){
+
+          } //hedefime yakın bul    
+          else{
+            endWalkableStops.push(Stops[i]);
+          }
+      }
+    }
+
+   function FindTransportation()
+   {
+         //todo sql sorgusu yap ve al.
+   }
+
+
+    function IsWalkable(Pos1, Pos2) {
+      var origins = StringfyCoordinates(Pos1);
+      var destination = "&destinations=" + StringfyCoordinates(Pos2);
+      var api = " https://maps.googleapis.com/maps/api/distancematrix/json?units=metric&mode=walking&origins=";
+      var key = "&key=AIzaSyAW3iSCRaIQVUTncesQtymCE6MY9d5tRJA";
+
+      var url = api + origins + destination + key;
+
+
+      axios.get(url)
+
+        .then(function (response) {
+
+
+
+          console.log(response);
+
+          if (response.data.rows[0].elements[0].duration.text.includes("saat"))
+          {
+            console.log("false1");
+            return false;
+          }           
+          else if (parseInt(response.data.rows[0].elements[0].duration.text.split("dakika")[0], 10) > 10)
+          {
+            console.log("false2 " +response.data.rows[0].elements[0].duration.text.split("dakika")[0]);
+            return false;
+          } //10 Dakikadan uzak ise       
+          else
+          {
+            console.log("truee");
+            return true;
+          }       
+        })
+        .catch(function (error) {
+          console.log(error);
+
+        })
+    }
+
+    function CalculateDistanceDuration(Pos1 = StartingPos, Pos2 = EndingPos) {
+      var origins = StringfyCoordinates(Pos1);
+      var destination = "&destinations=" + StringfyCoordinates(Pos2);
+      var api = " https://maps.googleapis.com/maps/api/distancematrix/json?units=metric&origins=";
+      var key = "&key=AIzaSyAW3iSCRaIQVUTncesQtymCE6MY9d5tRJA";
+
+      var url = api + origins + destination + key;
+
+
+      axios.get(url)
+
+        .then(function (response) {
+
+          console.log(response);
+          alert(response.data.rows[0].elements[0].distance.text + "  " + response.data.rows[0].elements[0].duration.text)
+
+
+        })
+        .catch(function (error) {
+          console.log(error);
+
+        })
+      // https://maps.googleapis.com/maps/api/distancematrix/json?units=metric&origins=38.734511201032056,%2027.039604469266123&destinations=38.571392969685405,%2027.215665778320272&key=AIzaSyAW3iSCRaIQVUTncesQtymCE6MY9d5tRJA
+    }
+
+    function StringfyCoordinates(Coord) {
+      var stringCoord = JSON.stringify(Coord)
+      var latExcluded = stringCoord.split("{\"lat\":");
+      var lngExcluded = latExcluded[1].split("\"lng\":");
+      var curlExcluded = lngExcluded[1].split("}");
+
+
+      return lngExcluded[0] + curlExcluded[0];
+
+
+    }
+
+
+
+    function GetCityInfo(Coordinates) {
+      var stringCoord = JSON.stringify(Coordinates)
+      var latExcluded = stringCoord.split("{\"lat\":")
+      var lngExcluded = latExcluded[1].split("\"lng\":")
+      var curlExcluded = lngExcluded[1].split("}")
+
+      var api = "https://maps.googleapis.com/maps/api/geocode/json?latlng=";
+      var key = "&key=AIzaSyAW3iSCRaIQVUTncesQtymCE6MY9d5tRJA";
+      var latlng = lngExcluded[0] + curlExcluded[0];
+      var url = api + latlng + key;
+
+
+      axios.get(url)
+
+
+
+        .then(function (response) {
+          console.log(response);
+          var length = response.data.results.length - 2;
+          var cityName = response.data.results[length].address_components[0].long_name;
+          if (cityName == "İzmir")
+            console.log(cityName + " True");
+          else
+            console.log(cityName + " False");
+        })
+        .catch(function (error) {
+          console.log(error);
+          console.log("False");
+        })
+    }
+
+    function GetCoordinates(Coordinates) //NEW
+    {
+      if (selectStart)
+        StartingPos = Coordinates
+      else if (selectEnd)
+        EndingPos = Coordinates
+    }
+
+
+    function calculateAndDisplayRoute(directionsService, directionsDisplay) {
+      directionsService.route({
+        origin: StartingPos,
+        destination: EndingPos,
+        travelMode: 'DRIVING'
+      }, function (response, status) {
+        if (status === 'OK') {
+
+          directionsDisplay.setDirections(response);
+        } else {
+          window.alert('Directions request failed due to ' + status);
+        }
+      });
+    }
+  </script>
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAW3iSCRaIQVUTncesQtymCE6MY9d5tRJA&callback=initMap">
+    </script>
+</body>
+
+</html>
